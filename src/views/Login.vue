@@ -53,6 +53,13 @@
         </div>
       </div>
     </div>
+    <div class="justify-content-center text-center my-4">
+      <div>
+        <p>User Name: Mzero</p>
+        <p>Email: admin@admin.com</p>
+        <p>Password: 123456</p>
+      </div>
+    </div>
   </div>
 </template>
 
