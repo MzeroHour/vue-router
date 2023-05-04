@@ -33,7 +33,7 @@
             <router-link class="nav-link" to="/login">Login</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" @click="logout" href="#">Logout</a>
           </li>
         </ul>
       </div>
@@ -44,6 +44,12 @@
 <script>
 export default {
   name: "MenuBar",
+  methods: {
+    logout() {
+      localStorage.clear();
+      this.$router.push("/login");
+    },
+  },
 };
 </script>
 
